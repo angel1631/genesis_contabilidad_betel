@@ -22,5 +22,3 @@ $("#boton-enviar-form-login").click(function(){
 		}
 	});
 });
-//if($.cookie('genesis_token') == null )
-	
