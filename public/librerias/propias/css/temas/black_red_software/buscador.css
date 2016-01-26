@@ -1,0 +1,15 @@
+.titulo_linea_busqueda, .linea_busqueda{
+	width: 100%;
+	min-height: 35px;
+	vertical-align: top;
+	border-bottom: 2px solid black;	
+}.titulo_linea_busqueda{
+	background: rgb(153,180,51);
+}
+.titulo_linea_busqueda label{
+	font-weight: bold;
+}.linea_busqueda{
+	background: rgb(239,244,255);
+	border-bottom: 1px solid black;
+	font-weight: normal;
+}

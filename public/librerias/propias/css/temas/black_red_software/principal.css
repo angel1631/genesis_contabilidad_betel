@@ -1,0 +1,121 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background: rgb(81,81,81);
+}header{
+	width: 100%;
+	position: fixed;
+	box-shadow: 0 3px 5px rgba(0,0,0,0.5);
+	z-index: 1;
+	background: rgb(81,81,81);
+	top: 0px;
+}.sintio_usuario{
+	position: fixed;
+	width: 100%;
+	text-align: center;
+	background: rgba(65,65,65,0.8);
+	z-index: 999;
+	height: 100%;
+	display: none;
+	
+}.sintio_usuario > .form-group{
+	position: relative;
+	width: 60%;
+	margin-left: 20%;
+	background: white;
+	height: 100%;
+}
+#contenedor_titulo_pagina{
+	margin-left: 5%;
+	width: 90%;
+	height: 125px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	color:white;
+	font-size: 3em;
+	line-height: 80px;
+}
+#contenedor_titulo_pagina img{
+	margin-top: 10px;
+}
+#sintio_menu_titulo{
+	width: 100%;
+	z-index: 5;
+}
+.invoca-menu{
+	display: none;
+}#boton-activador-form-login{
+	width: 60px;
+	background: white;
+	color: black;
+	height: 25px;
+	float: right;
+	text-align: center;
+	border-radius: 0px 0px 0px 5px;
+	font-weight: bold;
+	cursor: hand;
+}main{
+	width: 90%;
+	margin-left: 5%;
+	background: white;
+	box-shadow: 0 5px 10px rgba(0,0,0,0.7);
+	vertical-align: top;
+	margin-top: -5px;
+	min-height: 300px;
+	position: absolute;
+	top: 165px;
+}.sintio-titulo{
+	height: 40px;
+	
+	text-align: left;
+	color: white;
+	background: rgb(65,65,65);
+	margin-top: 25px;
+	width: 90%;
+	margin-left: 5%;
+	padding-left: 1%;
+	box-shadow: 2px 2px 5px rgba(45,45,45,0.6);
+	font-weight: bold;
+}
+.sintio_titulo_pagina{
+	max-width: 40%;
+	margin-left: 5%;
+	background: rgb(65,65,65);
+	color: white;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	vertical-align: top;
+	font-size: 1.8em;
+	box-shadow: 0px 5px 5px rgba(30,30,30,0.5);
+	
+}.contenido_pagina{
+	width: 100%;
+	margin-top: 25px;
+	text-align: center;
+}.sintio_notificacion{
+	width: 100%;
+	height: 5%;
+	color: white;
+	background: rgb(45,45,45);
+	text-align: center;
+	display: none;
+	line-height: 23px;
+	position: fixed;
+	top: 95%;
+	z-index: 99;
+}.sintio_notificacion #correo_usuario{
+	width: 60%;
+	color: black;
+}.sintio_notificacion #enviar_suscripcion{
+	width: 10%;
+	color: black;
+}.boton-cerrar-pantalla-extra{
+	width: 20px;
+	height: 20px;
+	border-radius: 15px;
+	background: rgb(255,100,100);
+	color: white;
+	cursor: hand;
+}
